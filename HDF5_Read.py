@@ -48,6 +48,8 @@ class H5Dataset(Dataset):
                 train_data2 = np.concatenate((train_data1, train_data1, train_data1), axis = -1)
                 train_data3 = transformations['val'](train_data2)
                 
+        target_data = np.array(record[keys[index]]['target'])
+        
         return train_data3, target_data, keys[index]
 
     def __len__(self):
