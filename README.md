@@ -37,6 +37,6 @@ An EfficientNetV2-based survival benefit prediction system was developed to pred
   > cat Open_Access_Data.hdf5.tar.gz* | tar -xzv
   > 
  
-<div align=left><img width="1000" height="127" src="https://github.com/JD910/ESPS/blob/main/utils/Examples.jpg"/></div><br />
+<div align=left><img width="1000" height="123" src="https://github.com/JD910/ESPS/blob/main/utils/Examples.jpg"/></div><br />
 
 **Fig. S1. Examples of the input images of ESBP. a(1) to a(4) and a(5) to a(8) represent two different patients.**<br />
